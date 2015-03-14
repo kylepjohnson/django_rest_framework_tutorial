@@ -55,6 +55,11 @@ ROOT_URLCONF = 'tutorial.urls'
 WSGI_APPLICATION = 'tutorial.wsgi.application'
 
 
+# eg, http://127.0.0.1:8000/snippets/.json?page=2
+REST_FRAMEWORK = {
+    'PAGE_SIZE': 10
+}
+
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
