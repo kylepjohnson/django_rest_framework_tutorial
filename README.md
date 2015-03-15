@@ -24,3 +24,4 @@ Setup instructions at:
 * http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/
 * https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-django-with-postgres-nginx-and-gunicorn
 * https://github.com/benoitc/gunicorn/blob/master/examples/nginx.conf
+* http://agiliq.com/blog/2013/08/minimal-nginx-and-gunicorn-configuration-for-djang/
