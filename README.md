@@ -17,7 +17,9 @@ python manage.py runserver
 
 # Deploy
 
+```
 gunicorn --workers=3 --bind localhost:8001 tutorial.wsgi
+```
 
 Setup instructions at:
 
